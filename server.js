@@ -5,7 +5,7 @@ const sqlite3 = require('sqlite3').verbose();
 
 // ==================== CONFIGURACIÓN ====================
 const CONFIG = {
-  TWILIO_ACCOUNT_SID: process.env.TWILIO_ACCOUNT_SID,,
+  TWILIO_ACCOUNT_SID: process.env.TWILIO_ACCOUNT_SID,
   TWILIO_AUTH_TOKEN: process.env.TWILIO_AUTH_TOKEN,
   TWILIO_WHATSAPP_NUMBER: process.env.TWILIO_WHATSAPP_NUMBER,
 ANTHROPIC_API_KEY: process.env.ANTHROPIC_API_KEY,  
